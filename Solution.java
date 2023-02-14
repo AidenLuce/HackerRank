@@ -42,9 +42,30 @@ public class Solution {
         }
     }
 
+    public static void q4(){
+        Scanner scan = new Scanner(System.in);
+        String s = scan.nextLine();
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        scan.close();
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+
+
+
+
+
+
+
+
+
     public static void main(String[] args) {
-        q1();
-        q2();
-        q3();
+//        q1();
+//        q2();
+//        q3();
+        q4();
     }
 }
