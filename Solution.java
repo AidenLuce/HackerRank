@@ -53,6 +53,9 @@ public class Solution {
         System.out.println("Double: " + d);
         System.out.println("Int: " + i);
     }
+    public static void q5(){
+
+    }
 
 
 
@@ -66,6 +69,7 @@ public class Solution {
 //        q1();
 //        q2();
 //        q3();
-        q4();
+//        q4();
+        q5();
     }
 }
