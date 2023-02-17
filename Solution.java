@@ -44,9 +44,10 @@ public class Solution {
 
     public static void q4(){
         Scanner scan = new Scanner(System.in);
-        String s = scan.nextLine();
         int i = scan.nextInt();
         double d = scan.nextDouble();
+        scan.nextLine();
+        String s = scan.nextLine();
         scan.close();
 
         System.out.println("String: " + s);
@@ -54,7 +55,15 @@ public class Solution {
         System.out.println("Int: " + i);
     }
     public static void q5(){
-
+        Scanner sc=new Scanner(System.in);
+        System.out.println("================================");
+        for(int i=0;i<3;i++){
+            String s1=sc.next();
+            int x=sc.nextInt();
+            System.out.printf("%-14s %03d\n", s1, x);
+            //Complete this line
+        }
+        System.out.println("================================");
     }
 
 
@@ -70,6 +79,7 @@ public class Solution {
 //        q2();
 //        q3();
 //        q4();
-        q5();
+//        q5();
+
     }
 }
