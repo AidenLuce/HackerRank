@@ -65,7 +65,12 @@ public class Solution {
         }
         System.out.println("================================");
     }
-
+    public static void q6(){
+        int N = 2;
+        for(int i =1; i<=10;i++ ){
+            System.out.println(N+" x "+i+" = " +(N*i));
+        }
+    }
 
 
 
@@ -80,6 +85,7 @@ public class Solution {
 //        q3();
 //        q4();
 //        q5();
+//        q6();
 
     }
 }
