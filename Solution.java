@@ -72,6 +72,27 @@ public class Solution {
         }
     }
 
+    public static void q7() {
+        Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        for(int i=0;i<t;i++){
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int n = in.nextInt();
+            int total = a;
+            for (int j = 0; j<n; j++) {
+                int e = (int)Math.pow(2, j)*b;
+                total += e;
+                System.out.printf("%s ",total);
+            }
+            if (i < t-1) {
+                System.out.print("\n");
+            }
+
+        }
+        in.close();
+    }
+
 
 
 
@@ -86,6 +107,6 @@ public class Solution {
 //        q4();
 //        q5();
 //        q6();
-
+//        q7();
     }
 }
